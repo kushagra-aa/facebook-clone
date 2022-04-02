@@ -13,7 +13,7 @@ const Login = () => {
       />
       <h1
         onClick={signIn}
-        className="capitalize p-5 bg-blue-500 rounded-full text-white text-center cursor-pointer"
+        className="capitalize p-5 bg-red-500 rounded-full text-white text-center cursor-pointer"
       >
         login with facebook
       </h1>

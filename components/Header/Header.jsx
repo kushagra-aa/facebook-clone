@@ -14,6 +14,7 @@ import {
   ShoppingCartIcon,
 } from "@heroicons/react/outline";
 import HeaderIcon from "./HeaderIcon";
+import Logo from "./../../public/logo.png";
 import { signOut, useSession } from "next-auth/react";
 
 const Header = () => {
@@ -26,9 +27,9 @@ const Header = () => {
         {/* logo */}
         <Image
           alt="my social"
-          src="https://links.papareact.com/5me"
-          width="40"
-          height="40"
+          src={Logo}
+          width={50}
+          height={50}
           layout="fixed"
         />
         {/* search form */}

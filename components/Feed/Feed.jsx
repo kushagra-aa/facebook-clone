@@ -1,7 +1,7 @@
 import React from "react";
 import InputBox from "./InputBox";
-import Posts from "./Posts";
-import Stories from "./Stories";
+import Posts from "./Posts/Posts";
+import Stories from "./Stories/Stories";
 
 const Feed = ({ posts }) => {
   return (
