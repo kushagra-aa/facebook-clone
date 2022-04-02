@@ -3,13 +3,38 @@ import { DotsHorizontalIcon, VideoCameraIcon } from "@heroicons/react/solid";
 import Contact from "./Contact";
 
 const contacts = [
-  { src: "https://links.papareact.com/f0p", name: "Jeff Leloz" },
-  { src: "https://links.papareact.com/kxk", name: "Elon Chusk" },
-  { src: "https://links.papareact.com/zvy", name: "Bill Chades" },
-  { src: "https://links.papareact.com/snf", name: "Harry Lodaer" },
-  { src: "https://links.papareact.com/d0c", name: "Mark Chukarburg" },
-  { src: "https://links.papareact.com/6gg", name: "Sheela Jawan" },
-  { src: "https://links.papareact.com/r57", name: "Chrish Pratt" },
+  {
+    src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    name: "Lisa Musk",
+  },
+  {
+    src: "https://links.papareact.com/l4v",
+    name: "Sonny Sangha",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+    name: "Tory John",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80",
+    name: "Billy Pratt",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1504593811423-6dd665756598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    name: "Chris Yoda",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+    name: "Riely Shawn",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1509112552557-8eb3dab85cfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+    name: "Charlie",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1514353456378-94e73f7204b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+    name: "Alex Youngs",
+  },
 ];
 
 const Widgets = () => {
