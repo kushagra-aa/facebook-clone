@@ -62,7 +62,7 @@ const Header = () => {
           height="50%"
           alt="user image"
         />
-        <p className="font-semibold pr-3 whitespace-nowrap">
+        <p className="hidden lg:inline-flex font-semibold pr-3 whitespace-nowrap">
           {session.user.name}
         </p>
         <ViewGridIcon className="header-r-icon" />

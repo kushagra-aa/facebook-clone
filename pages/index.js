@@ -5,6 +5,7 @@ import Feed from "../components/Feed";
 import Header from "../components/Header";
 import Login from "../components/Login";
 import Sidebar from "../components/Sidebar";
+import Widgets from "../components/Widgets";
 
 export default function Home({ session }) {
   if (!session) return <Login />;
@@ -27,6 +28,7 @@ export default function Home({ session }) {
         {/* FEED */}
         <Feed />
         {/* WIDGETS */}
+        <Widgets />
       </main>
     </div>
   );

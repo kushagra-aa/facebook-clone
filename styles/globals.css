@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    user-select: none;
+}
+
 @layer components{
     .header-r-icon{
         @apply hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full cursor-pointer hover:bg-gray-100
@@ -10,4 +14,15 @@
     .input-icon{
         @apply flex items-center space-x-1 hover:bg-gray-100 flex-grow justify-center p-2 rounded-xl cursor-pointer;
     }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
