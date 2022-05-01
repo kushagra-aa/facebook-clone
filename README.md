@@ -2,7 +2,7 @@
 
 <img src="./public/logo.png" width="15%" alt="logo"/>
 
-My Medium is clone of Facebook, this is a Social Application that is built on NextJS and uses Firebase for Database and Facebook Authentication.
+My Social is clone of Facebook, this is a Social Application that is built on NextJS and uses Firebase for Database and Facebook Authentication.
 
 Built with 🤍 For You!
 
