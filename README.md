@@ -8,7 +8,7 @@ Built with 🤍 For You!
 
 Hosted On vercel
 
-<a target="_blank" href="https://mysocial-k.vercel.app/">
+<a target="_blank" href="https://my-social-k.vercel.app/">
   Visit Here
 </a>
 
