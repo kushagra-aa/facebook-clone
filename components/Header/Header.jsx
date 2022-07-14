@@ -57,7 +57,7 @@ const Header = () => {
       <div className="flex items-center sm:space-x-2 justify-end">
         <Image
           onClick={signOut}
-          className="cursor-pointer"
+          className="cursor-pointer rounded-full"
           src={session.user.image}
           width="50%"
           height="50%"
